@@ -1,0 +1,128 @@
+@import url();
+
+
+
+/* PALETA DE COLORES */
+
+:root {   
+
+        /* Colores base */
+
+        --background:#05080D;
+        --secondary: #1e4b55;
+        --text-white: #E6F1F7;
+        --greydark1:#3E4759;
+        --greymedium:#5A6273;
+        --greylight: #BACDD9;
+
+        /* Colores secundarios */
+
+        --sd:#65858C;
+        --1:#263D40;
+        --w:#8C694A;
+        --s:#A68072;
+        --a:#012840;
+        --az:#011640;
+        --ver:#0B423C;
+        --greenlight:#5EBF92;
+
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: none;
+    text-decoration: none;
+    list-style-type: none;
+ }
+
+/* CURSOR */
+
+ body{
+   cursor: url(assets/items/espada-mc.png), auto;
+   height: 20px;
+ }
+
+/* NAVBAR */
+
+ header {
+    background: linear-gradient(0deg, rgba(0,0,0,0.8521533613445378) 34%, rgba(30,75,85,1) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 80px;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+
+.logo {
+    height: 90px;
+}
+
+.navbar,
+.navbar-list,
+.navbar-top{
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.navbar {
+    flex-direction: column;
+    gap:10px;
+}
+
+.navbar-top{
+    justify-content: flex-end;
+    gap:10px;
+    margin-right: 3rem;
+}
+
+.navbar-list{
+    gap:20px;
+
+}
+
+.navbar-list a {
+    color: var(--greylight);
+    font-size: 14px;
+}
+
+.navbar-list li:first-child>a {
+    color: var(--text-white);
+    font-weight: 600;
+}
+
+.carrito {
+    cursor: pointer;
+    margin-left:15px;
+    height: 20px;
+}
+
+/* Buscador */
+
+
+
+/* .serch-box{
+    width: 80%;
+    border-radius: 15px;
+    font-weight: 600;
+    height: 25px;
+    text-align: center;
+} */
+
+
+/* Main */
+
+body{
+    background: var(--background);
+    /* background-image:url(assets/gif-cielo1.gif); */
+    /* background-repeat: repeat; */
+    /* width: 100%; */
+}
