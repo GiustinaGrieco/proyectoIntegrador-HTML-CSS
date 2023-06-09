@@ -20,6 +20,8 @@
 
 header{
     width: 100%;
+    box-shadow: 0 8px 24px #778e9f5f ;
+    height: 75px;
 }
 
 .nav-login{
@@ -50,7 +52,7 @@ header{
 }
 
 .logo{
-    height: 100px;
+    height: 90px;
     padding-left: 20px;
 }
 
@@ -70,19 +72,22 @@ html {
   }
   body {
     background: rgb(5,8,13);
-    background: linear-gradient(0deg, rgba(5,8,13,1) 0%, rgba(30,75,85,1) 100%);
+    /* background: linear-gradient(0deg, rgba(5,8,13,1) 0%, rgba(30,75,85,1) 100%); */
+    background-image: url(assets/fondo-decoración/gif-cielo1.gif);
+    object-fit: cover;
+    width: 100%;
   }
   
   .login-box {
     position:absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
     background: rgb(5,8,13);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-shadow: -5px 12px 25px rgba(0, 238, 255, 0.776);
     border-radius: 10px;
   }
   
@@ -244,7 +249,7 @@ html {
     background: transparent;
     border-radius: 10px;
     font-size:10px ;
-    top: 80%;
+    top: 85%;
   }
 
 .register-box h2{
