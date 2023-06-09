@@ -4,41 +4,319 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo integrador</title>
+    <title>Proyecto Integrador</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="icon" type="png" href="assets/logos/rubik-formulas-reducido.png">
 </head>
 <body>
     
-    <header>  
-        <img src="assets/logos/rubik-formulas1.png" alt="Logo de la página" class="logo">
+                <!-- Navbar -->
 
-        <nav class="navbar"> 
+<header class="header">
+
+    <nav class="navbar">
+        
+        <img src="assets/logos/rubik-formulas1.png" alt="Logo" class="logo">
+
+        <div class="navbar-center">
+
             <label for="toggle-menu">
-                <i class="fa-duotone fa-bars"></i>
+                <img src="assets/items/menu (1).png" alt="Menú" class="menu">
             </label>
             <input type="checkbox" id="toggle-menu">
 
             <ul class="navbar-list">
-                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Nuestros productos</a></li>
-                <li><a href="#">Redes</a></li>
-                <li><a href="#">Contactanos</a></li>
+                <li><a href="#" class="navbar-link">INICIO</a></li>
+                <li><a href="#" class="navbar-link">SOBRE NOSOTROS</a></li>
+                <li><a href="#" class="navbar-link">NUESTROS PRODUCTOS</a></li>
+                <li><a href="#" class="navbar-link">REDES</a></li>
+                <li><a href="#" class="navbar-link">CONTACTANOS</a></li>
             </ul>
+        </div>
+
+        <div class="nav-elements">
+                    <!-- buscador -->
+            <label for="toggle-menu-serch">
+                <img src="assets/items/buscador.png" alt="Buscador" class="serch">
+            </label>
+            <input type="checkbox" id="toggle-menu-serch">
+
+            <div class="serch-box">
+                <input type="text" placeholder="Encontrá nuestros productos">
+            </div>
+
+                    <!-- usuario -->
+            <label for="toggle-user">
+                <img src="assets/items/usuario.png" alt="User" class="user">
+            </label>
+            <input type="checkbox" id="toggle-user">
+
+            <div class="user-box">
+                <ul>
+                    <li> <a href="login.html">Login</a></li>
+                    <li> <a href="register.html">Register</a></li>
+                </ul>
+            </div>
+                    <!-- favoritos -->
+            <img src="assets/items/estrella.png" alt="Favoritos" class="favorites">
 
 
+                    <!-- Carrito -->
+            <img src="assets/items/carrito-de-compras.png" alt="Carrito" class="cart">
+
+            <!-- <label for="toggle-menu">
+                <img src="assets/items/menu (1).png" alt="Menú" class="menu">
+            </label>
+            <input type="checkbox" id="toggle-menu"> -->
+
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+</div>
+
+<main>
+    <section id="hero">
+
+        <img src="assets/fondo-decoración/dado18.png" alt="Dado1" class="dado1">
+        <img src="assets/fondo-decoración/dado2.png" alt="Dado2" class="dado2">
+
+        <div class="info-container">
+            <div class="info">
+                <h5>By Friki-Corp</h5>
+                <h1>Bienvenidos a Azkaban... 
+                Una vez que entran es imposible salir</h1>
+
+                <p>Sí, como lo pudiste intuir <span>somos súper frikis</span>.
+                Si te gustan las películas, series, videojuegos, libros o juegos de rol ¡encontraste tu lugar! 
+                En nuestra tienda online, encontrarás todo lo que necesitas para alimentar tus pasiones ocultas.  Nos hemos embarcado en una misión para reunir los artículos más auténticos del universo friki para ponerlos al alcance de tus manos. Ya sea que seas un fanático de los superhéroes, los videojuegos, el anime o la ciencia ficción, aquí encontrarás el tesoro que estabas buscando. </p>
+ 
+            </div>
+                <h4>Para seguirnos en nuestra aventura ¡Unite y se parte de nosotros!</h4>
+            <div class="buttons">
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="products-galery">
+
+        <div class="galey-container">
+            <h2>Un pequeño adelanto de nuestros productos <img src="assets/items/winking-face_1f609.png" alt="" class="emojis"></h2>
+
+            <div class="container">
+                <div class="card">
+                  <img src="assets/fig/bilbo.jpg" alt="">
+                </div>
+                
+                <div class="card">
+                  <img src="assets/miniaturas/dragón.jpg" alt="">
+                </div>
+              
+                <div class="card">
+                  <img src="assets/dados/azul-dorado-arriba.jpg" alt="">
+                </div>
+              
+                <div class="card">
+                  <img src="assets/otros/cuaderno.jpg" alt="">
+                </div>
+
+                <div class="card">
+                    <img src="assets/miniaturas/guerrero.jpg" alt="">
+                  </div>
+
+              </div>
+              </body>
+        </div>
+
+    </section>
+
+    <section id="aboutUs">
+
+        <div class="about-text">
+            <h1>Quiénes somos</h1>
+            <p>Somos tu destino friki definitivo, donde encontrarás juegos de mesa, figuras de series y películas, libros emocionantes, miniaturas de rol, dados de rol y mucho más. Nuestra misión es hacer que estos productos sean accesibles para todos nuestros clientes alrededor del mundo a través de nuestra tienda online y envíos internacionales. Con un enfoque en la calidad y autenticidad, te ofrecemos una amplia variedad de artículos cuidadosamente seleccionados. Además, nuestro equipo de atención al cliente está aquí para ayudarte en cada paso del camino. Así que, prepárate para descubrir un universo de diversión y entretenimiento sin límites. ¡Bienvenido al lado friki de la vida!</p>
+        </div>
+
+        <h3>¿Por qué elegirnos?</h3>
+
+        <div class="about-cards">
+           
             
-        </nav>
-    </header>
+            
+            <div class="cards-info">
 
-    <main>
-      
+                <h2>Gran variedad de productos</h2>
+                <label for="card-desplegable">
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
+                <input type="checkbox" id="card-desplegable">
+
+                <div class="card-info-content">          
+                    <p>Desde películas y series de culto hasta juegos de rol y merchandising exclusivo, nuestra tienda ofrece una amplia selección de productos que satisfarán las necesidades de cualquier amante de lo friki.</p>
+                </div>
+            </div>
 
 
 
-    </main>
+<!-- 
+
+
+            <li class="cards-info">
+                <div class="card-info-top">
+                    <h2>Calidad y autenticidad </h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+                </div>
+                
+                <p>Nos enorgullece ofrecer productos de alta calidad y autenticidad garantizada. Trabajamos directamente con proveedores confiables y reconocidos para asegurarnos de que cada artículo cumpla con los estándares más exigentes.</p>
+            </li>
+
+
+            <li class="cards-info">
+                <div class="cards-info-top">
+                    <h2>Experiencia de compra segura </h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+                </div>
+                <p>Nos tomamos muy en serio la seguridad de nuestros clientes. Nuestra plataforma de compra online utiliza medidas de seguridad avanzadas para proteger tus datos personales y asegurar que cada transacción se realice de forma segura.</p>
+            </li>
+            <li class="cards-info">
+                <div class="cards-info-top">
+                    <h2>Envío rápido y confiable </h2> 
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+                </div>
+                <p>Sabemos que la impaciencia puede ser un superpoder para los frikis, por eso nos esforzamos por ofrecer un servicio de envío rápido y confiable. Tus productos llegarán a tu puerta en tiempo récord para que puedas disfrutarlos lo antes posible.</p>
+            </li>
+            <li class="cards-info">
+                <div class="cards-info-top">
+                    <h2>Atención al cliente excepcional </h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+                </div>
+                <p>Nuestro equipo de atención al cliente está aquí para ayudarte en cada paso del camino. Si tienes alguna pregunta, duda o necesitas asistencia, estaremos encantados de brindarte un servicio amigable y profesional.</p>
+            </li>
+            <li class="cards-info">
+                <div class="cards-info-top">                   
+                    <h2>Ofertas y promociones exclusivas</h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+                </div>
+                <p>Como parte de nuestra comunidad de frikis, podrás disfrutar de ofertas y promociones exclusivas. Mantente al tanto de nuestras novedades para no perderte ninguna oportunidad de conseguir tus productos favoritos a precios especiales.</p>
+            </li>
+            <li class="cards-info">
+                <h2>Comunidad friki <img src="assets/items/flecha-hacia-abajo.png" alt=""></h2>
+                <p>Al unirte a nuestra página, te conectarás con una comunidad de frikis apasionados que comparten tus intereses. Participa en nuestros eventos, debates y comentarios para disfrutar de la compañía de personas que comparten tu misma pasión.</p>
+            </li>
+            <li class="cards-info">
+                <h2>Facilidad de navegación <img src="assets/items/flecha-hacia-abajo.png" alt=""></h2>
+                <p>Nuestra página está diseñada para ofrecerte una experiencia de navegación intuitiva y fluida. Encuentra rápidamente lo que buscas y descubre nuevos tesoros frikis con facilidad.</p>
+            </li> -->
+
+        </div>
+
+    </section>
+
+    <section id="products">
+        <h2>Nuestros 
+            productos
+        </h2>
+        <div class="products-list">
+            <li class="product"> <a href="#">💣 Descatacados</a></li>
+            <li class="product"> <a href="#">🕴🏽 Miniaturas</a> </li>
+            <li class="product"> <a href="#">🎲 Dados</a></li>
+            <li class="product"> <a href="#">🕹️ Juegos</a></li>
+            <li class="product"> <a href="#">🧩 Cubos</a></li>
+            <li class="product"> <a href="#">🔥 Figuras</a></li>
+            <li class="product"> <a href="#">💯 Otros</a></li>
+        </div>
+
+        <div class="card-container">
+            <div class="card-product">
+                <img src="assets/miniaturas/dark warrior.jpg" alt="">
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Dark Warrior</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>    
+                    <div class="info-bottom">
+                        <p>$12 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <img src="assets/miniaturas/dragón.jpg" alt="">
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Dragón rojo</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$13,8UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <img src="assets/miniaturas/arquera.jpg" alt="">
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Arquera</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$12,6UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <img src="assets/miniaturas/enano.jpg" alt="">
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Enano</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$10,5 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <img src="assets/miniaturas/esqueleto.jpg" alt="">
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Esqueleto</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$13 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        
+    </section>
+</main>
+
 
 </body>
 </html>
