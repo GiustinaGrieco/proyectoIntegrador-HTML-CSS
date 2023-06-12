@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Integrador</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="png" href="assets/logos/rubik-formulas-reducido.png">
 </head>
 <body>
@@ -112,29 +111,32 @@
         <div class="galey-container">
             <h2>Un pequeño adelanto de nuestros productos <img src="assets/items/winking-face_1f609.png" alt="" class="emojis"></h2>
 
-            <div class="container">
-                <div class="card">
+            <div class="container-galery">
+                <div class="cardG">
                   <img src="assets/fig/bilbo.jpg" alt="">
                 </div>
                 
-                <div class="card">
+                <div class="cardG">
                   <img src="assets/miniaturas/dragón.jpg" alt="">
                 </div>
               
-                <div class="card">
+                <div class="cardG">
                   <img src="assets/dados/azul-dorado-arriba.jpg" alt="">
                 </div>
               
-                <div class="card">
+                <div class="cardG">
                   <img src="assets/otros/cuaderno.jpg" alt="">
                 </div>
 
-                <div class="card">
+                <div class="cardG">
                     <img src="assets/miniaturas/guerrero.jpg" alt="">
                   </div>
 
-              </div>
-              </body>
+            </div>
+
+            <div class="containerGalery-mobile">
+
+            </div>
         </div>
 
     </section>
@@ -148,78 +150,125 @@
 
         <h3>¿Por qué elegirnos?</h3>
 
-        <div class="about-cards">
-           
-            
-            
+        <div class="about-cards">           
+<!-- Beneficio 1 -->            
             <div class="cards-info">
-
-                <h2>Gran variedad de productos</h2>
-                <label for="card-desplegable">
+                <input type="checkbox" id="card-desplegable-1" class="card-desplegable">
+                <label for="card-desplegable-1" class="card-desplegable-header">
+                    <h2>Gran variedad de productos</h2>
                     <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
                 </label>
-                <input type="checkbox" id="card-desplegable">
+                
 
                 <div class="card-info-content">          
                     <p>Desde películas y series de culto hasta juegos de rol y merchandising exclusivo, nuestra tienda ofrece una amplia selección de productos que satisfarán las necesidades de cualquier amante de lo friki.</p>
                 </div>
             </div>
 
+<!-- Beneficio 2 -->
 
-
-<!-- 
-
-
-            <li class="cards-info">
-                <div class="card-info-top">
-                    <h2>Calidad y autenticidad </h2>
-                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
-                </div>
+            <div class="cards-info">
+                <input type="checkbox" id="card-desplegable-2" class="card-desplegable">
+                <label for="card-desplegable-2" class="card-desplegable-header">
+                    <h2>Calidad y autenticidad</h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
                 
-                <p>Nos enorgullece ofrecer productos de alta calidad y autenticidad garantizada. Trabajamos directamente con proveedores confiables y reconocidos para asegurarnos de que cada artículo cumpla con los estándares más exigentes.</p>
-            </li>
 
+                <div class="card-info-content">          
+                    <p>Nos enorgullece ofrecer productos de alta calidad y autenticidad garantizada. Trabajamos directamente con proveedores confiables y reconocidos para asegurarnos de que cada artículo cumpla con los estándares más exigentes.</p>
+                </div>
+            </div>
 
-            <li class="cards-info">
-                <div class="cards-info-top">
-                    <h2>Experiencia de compra segura </h2>
-                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+<!-- Beneficio 3 -->
+            <div class="cards-info">
+                <input type="checkbox" id="card-desplegable-3" class="card-desplegable">
+                <label for="card-desplegable-3" class="card-desplegable-header">
+                    <h2>Experiencia de compra segura</h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
+                
+
+                <div class="card-info-content">          
+                    <p>Nos tomamos muy en serio la seguridad de nuestros clientes. Nuestra plataforma de compra online utiliza medidas de seguridad avanzadas para proteger tus datos personales y asegurar que cada transacción se realice de forma segura.</p>
                 </div>
-                <p>Nos tomamos muy en serio la seguridad de nuestros clientes. Nuestra plataforma de compra online utiliza medidas de seguridad avanzadas para proteger tus datos personales y asegurar que cada transacción se realice de forma segura.</p>
-            </li>
-            <li class="cards-info">
-                <div class="cards-info-top">
-                    <h2>Envío rápido y confiable </h2> 
-                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+            </div>
+
+<!-- Beneficio 4 -->
+            <div class="cards-info">
+                <input type="checkbox" id="card-desplegable-4" class="card-desplegable">
+                <label for="card-desplegable-4" class="card-desplegable-header">
+                    <h2>Envío rápido y confiable</h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
+                
+
+                <div class="card-info-content">          
+                    <p>Sabemos que la impaciencia puede ser un superpoder para los frikis, por eso nos esforzamos por ofrecer un servicio de envío rápido y confiable. Tus productos llegarán a tu puerta en tiempo récord para que puedas disfrutarlos lo antes posible.</p>
                 </div>
-                <p>Sabemos que la impaciencia puede ser un superpoder para los frikis, por eso nos esforzamos por ofrecer un servicio de envío rápido y confiable. Tus productos llegarán a tu puerta en tiempo récord para que puedas disfrutarlos lo antes posible.</p>
-            </li>
-            <li class="cards-info">
-                <div class="cards-info-top">
-                    <h2>Atención al cliente excepcional </h2>
-                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+            </div>
+
+<!-- Beneficio 5 -->
+
+            <div class="cards-info">
+                <input type="checkbox" id="card-desplegable-5" class="card-desplegable">
+                <label for="card-desplegable-5" class="card-desplegable-header">
+                    <h2>Atención al cliente excepcional</h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
+                
+
+                <div class="card-info-content">          
+                    <p>Nuestro equipo de atención al cliente está aquí para ayudarte en cada paso del camino. Si tienes alguna pregunta, duda o necesitas asistencia, estaremos encantados de brindarte un servicio amigable y profesional.</p>
                 </div>
-                <p>Nuestro equipo de atención al cliente está aquí para ayudarte en cada paso del camino. Si tienes alguna pregunta, duda o necesitas asistencia, estaremos encantados de brindarte un servicio amigable y profesional.</p>
-            </li>
-            <li class="cards-info">
-                <div class="cards-info-top">                   
+            </div>
+
+<!-- Beneficio 6 -->
+            <div class="cards-info">
+                <input type="checkbox" id="card-desplegable-6" class="card-desplegable">
+                <label for="card-desplegable-6" class="card-desplegable-header">
                     <h2>Ofertas y promociones exclusivas</h2>
-                    <img src="assets/items/flecha-hacia-abajo.png" alt="">
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
+                
+
+                <div class="card-info-content">          
+                    <p>Como parte de nuestra comunidad de frikis, podrás disfrutar de ofertas y promociones exclusivas. Mantente al tanto de nuestras novedades para no perderte ninguna oportunidad de conseguir tus productos favoritos a precios especiales.</p>
                 </div>
-                <p>Como parte de nuestra comunidad de frikis, podrás disfrutar de ofertas y promociones exclusivas. Mantente al tanto de nuestras novedades para no perderte ninguna oportunidad de conseguir tus productos favoritos a precios especiales.</p>
-            </li>
-            <li class="cards-info">
-                <h2>Comunidad friki <img src="assets/items/flecha-hacia-abajo.png" alt=""></h2>
-                <p>Al unirte a nuestra página, te conectarás con una comunidad de frikis apasionados que comparten tus intereses. Participa en nuestros eventos, debates y comentarios para disfrutar de la compañía de personas que comparten tu misma pasión.</p>
-            </li>
-            <li class="cards-info">
-                <h2>Facilidad de navegación <img src="assets/items/flecha-hacia-abajo.png" alt=""></h2>
-                <p>Nuestra página está diseñada para ofrecerte una experiencia de navegación intuitiva y fluida. Encuentra rápidamente lo que buscas y descubre nuevos tesoros frikis con facilidad.</p>
-            </li> -->
+            </div>
+
+<!-- Beneficio 7 -->
+            <div class="cards-info">
+                <input type="checkbox" id="card-desplegable-7" class="card-desplegable">
+                <label for="card-desplegable-7" class="card-desplegable-header">
+                    <h2>Comunidad friki </h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
+                
+
+                <div class="card-info-content">          
+                    <p>Al unirte a nuestra página, te conectarás con una comunidad de frikis apasionados que comparten tus intereses. Participa en nuestros eventos, debates y comentarios para disfrutar de la compañía de personas que comparten tu misma pasión.</p>
+                </div>
+            </div>
+
+<!--Beneficio 8-->
+            <div class="cards-info">
+                <input type="checkbox" id="card-desplegable-8" class="card-desplegable">
+                <label for="card-desplegable-8" class="card-desplegable-header">
+                    <h2>Facilidad de navegación</h2>
+                    <img src="assets/items/flecha-hacia-abajo.png" alt="flechaDeLaCard">
+                </label>
+                
+
+                <div class="card-info-content">          
+                    <p>Nuestra página está diseñada para ofrecerte una experiencia de navegación intuitiva y fluida. Encuentra rápidamente lo que buscas y descubre nuevos tesoros frikis con facilidad.</p>
+                </div>
+            </div>
 
         </div>
-
     </section>
+
+<!-- Section: products -->
 
     <section id="products">
         <h2>Nuestros 
@@ -237,7 +286,9 @@
 
         <div class="card-container">
             <div class="card-product">
-                <img src="assets/miniaturas/dark warrior.jpg" alt="">
+                <div class="product-img">
+                    <img src="assets/miniaturas/dark warrior.jpg" alt="Miniatura:Guerrero oscuro">
+                </div>
                 <div class="card-info">
                     <div class="info-top">
                         <p>Dark Warrior</p>
@@ -251,7 +302,58 @@
             </div>
 
             <div class="card-product">
-                <img src="assets/miniaturas/dragón.jpg" alt="">
+                <div class="product-img">
+                    <img src="assets/dados/verde-dorado.jpg" alt="Dado de rol verde y dorado">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Dados celeste y dorado</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$13,4 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/otros/kit-rol1.jpg"Miniatura:arquera">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Kit de rol</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$49,9UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/fig/Nendoroid Darth Vader.jpg"Miniatura:arquera">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Darth Vader</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$8,9UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/miniaturas/dragón.jpg" alt="Miniatura:dragón">
+                </div>
                 <div class="card-info">
                     <div class="info-top">
                         <p>Dragón rojo</p>
@@ -264,8 +366,93 @@
                 </div>
             </div>
 
+
             <div class="card-product">
-                <img src="assets/miniaturas/arquera.jpg" alt="">
+                <div class="product-img">
+                    <img src="assets/otros/espada el señor de los anillos2.jpg" alt="Figura:arwen y frodo">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Narsil: la espada de Señor de los anillos</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$150 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/otros/lor of rings book.jpg" alt="Figura:arwen y frodo">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Edición especial: el señor de los anillos</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$23 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/fig/Arwen-frodo.jpg" alt="Figura:arwen y frodo">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Arwen y Frodo a caballo</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$20 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/fig/pennywise.jpg" alt="Figura:Pennywise">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Pennywise</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$10 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/dados/multi.jpg" alt="Dados de rol multicolor">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Dados multicolor</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$16,8 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/miniaturas/arquera.jpg" alt="Miniatura:arquera">
+                </div>
                 <div class="card-info">
                     <div class="info-top">
                         <p>Arquera</p>
@@ -278,8 +465,27 @@
                 </div>
             </div>
 
+
             <div class="card-product">
-                <img src="assets/miniaturas/enano.jpg" alt="">
+                <div class="product-img">
+                    <img src="assets/cubos/pila-de-cubos.jpg" alt="Pila de cubos rubik">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Kit: cubos rubik</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$89,99 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/miniaturas/enano.jpg" alt="Miniatura:enano">
+                </div>
                 <div class="card-info">
                     <div class="info-top">
                         <p>Enano</p>
@@ -292,8 +498,60 @@
                 </div>
             </div>
 
+
             <div class="card-product">
-                <img src="assets/miniaturas/esqueleto.jpg" alt="">
+                <div class="product-img">
+                    <img src="assets/juegos/Jumanji.jpg" alt="Miniatura:enano">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Jumanji</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$20 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/fig/harley quinn.jpg" alt="Miniatura:enano">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Harley Quinn</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$18 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/dados/dado-rojo.jpg" alt="Miniatura:enano">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Dado rojo</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$22 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/miniaturas/esqueleto.jpg" alt="Miniatura:esqueleto">
+                </div>
                 <div class="card-info">
                     <div class="info-top">
                         <p>Esqueleto</p>
@@ -306,15 +564,115 @@
                 </div>
             </div>
 
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/otros/special edition harry potter book.jpg" alt="Miniatura:enano">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Edición especial Harry Potter</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$40 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/miniaturas/exploradora.jpg" alt="Miniatura:esqueleto">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Exploradora</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$15 USD</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/dados/dados blancos transparentes.jpg" alt="Miniatura:enano">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Dados blancos transparentes</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$21 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-product">
+                <div class="product-img">
+                    <img src="assets/fig/gandalf.jpg" alt="Miniatura:enano">
+                </div>
+                <div class="card-info">
+                    <div class="info-top">
+                        <p>Gandalf</p>
+                        <img src="assets/items/estrella.png" alt="">
+                    </div>
+                    <div class="info-bottom">
+                        <p>$13 UDS</p>
+                        <img src="assets/items/carrito-de-compras.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="boton-verMas">
+            <a href="ver más"></a>
+        </div>
+    
+    </section>
+
+
+<!-- Section: contact -->
+
+    <section id="contact">
+        <div class="contact-container">
+
+            <div class="contact-text">
+
+                <div class="contact-top">
+                <p>Ante cualquier duda o inconveniente</p>
+                <h2>Contactanos</h2>
+                </div>
+
+    
+                <form action="">
+                    <label for="contact-name"></label>
+                    <input type="text" id="contact-name" placeholder="Ingresá tu nombre"  required>
+    
+                    <label for="contact-email"></label>
+                    <input type="text" id="contact-email" placeholder="Tu dirección Email" required>
+    
+                    <label for="contact-msg"></label>
+                    <input type="text" id="contact-msg" placeholder="Escribinos acá tu mensaje" required>
+            </div>
+
+            </form>
+
+        <div class="mapa">
 
 
         </div>
 
 
-
-
-        
+        </div>
     </section>
+
+
 </main>
 
 
