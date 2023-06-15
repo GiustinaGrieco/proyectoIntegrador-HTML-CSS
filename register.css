@@ -20,7 +20,7 @@ header{
     width: 100%;
 }
 
-.nav-login{
+.nav-register{
     width: 100%;
     display: flex;
     justify-content:right;
@@ -35,12 +35,12 @@ header{
     border-radius: 2px; 
 }
 
-.nav-login a{
+.nav-register a{
     color: var(--text-white); 
     font-size:16px;
 }
 
-.nav-login li:nth-child(3)>a{
+.nav-register li:nth-child(3)>a{
   color: var(--secondary);
   font-weight: 700;
 
@@ -76,7 +76,7 @@ header{
     
     .register-box {
       position:absolute;
-      top: 45%;
+      top: 50%;
       left: 50%;
       width: 400px;
       padding: 40px;
@@ -246,6 +246,7 @@ header{
       border-radius: 10px;
       font-size:10px ;
       top: 90%;
+      margin: 20px;
     }
   
   .login-box h2{
@@ -271,4 +272,23 @@ header{
                 0 0 15px var(--secondary),
                 0 0 30px var(--secondary),
                 0 0 50px var(--secondary);
+  }
+
+
+  @media (max-width:576px){
+    /* navbar */
+
+    .nav-login{
+      font-size: 10vw;
+    }
+
+    .register-box{
+      width: 80%;
+    }
+  }
+
+  @media (max-width:320px){
+    .register-box{
+      width: 100%;
+    }
   }

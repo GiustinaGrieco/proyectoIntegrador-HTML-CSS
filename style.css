@@ -837,6 +837,14 @@ body {
       width: 80%;
    }
 
+   .galey-container h2{
+      text-align: center;
+   }
+
+   .galey-container img{
+      display: none;
+   }
+
 
    /* Cards products */
 
@@ -858,6 +866,23 @@ body {
 }
 
 @media(max-width:576px){
+
+   /* hero */
+
+   .info-container h4{
+      width: 70%;
+      text-align: center;
+   }
+
+
+   
+   /* about-us */
+
+   .about-text p{
+      text-align:start;
+   }
+
+   /* contact */
    .contact-container{
       width: 80%;
    }
