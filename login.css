@@ -280,20 +280,39 @@ html {
 }
 
 
-@media (max-width:576px){
-  /* navbar */
+ @media (max-width:576px){
 
-  .nav-login{
-    font-size: 10vw;
+    .login-box{
+      width: 80%;
+      height: 70%;
+    }
+
   }
 
-  .login-box{
-    width: 80%;
-  }
-}
+  @media (max-width:420px){
 
-@media (max-width:320px){
-  .login-box{
-    width: 100%;
+    .nav-login{
+      gap:10px;
+    }
+    .nav-login a{
+      font-size: 12px;
+    }
+
+    .nav-login li:nth-child(2) a{
+      visibility: hidden;
+      display: none;
+    }
+
   }
-}
+
+  @media (max-width:320px){
+    .login-box{
+      width: 100%;
+      height: 70%;
+    }
+
+    .nav-login{
+     justify-content: flex-end;
+    }
+
+  }
