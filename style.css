@@ -918,14 +918,9 @@ body {
 
     /* Galery */
 
-    .container-galery{
+   #products-galery{
       display: none;
    }
-
-   .containerGalery-mobile{
-      display: flex;
-   } 
-
 
 
    /* About-us products */
