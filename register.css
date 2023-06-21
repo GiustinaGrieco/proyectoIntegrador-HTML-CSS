@@ -302,12 +302,30 @@ header{
 
   @media (max-width:320px){
     .register-box{
-      width: 100%;
-      height: 70%;
+      width: 90%;
+      top:50%;
+      padding: 20px;
     }
 
     .nav-register{
      justify-content: flex-end;
+    }
+
+    .register-box .user-box input{
+      padding: 5px 0;
+    }
+
+    .register-box .user-box label{
+      font-size: 12px;
+    }
+
+    .register-box form a {
+      margin-top: 0;
+      font-size: 12px;
+    }
+
+    .login-box{
+      margin: 0;
     }
 
   }
